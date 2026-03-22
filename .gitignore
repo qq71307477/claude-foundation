@@ -1,0 +1,15 @@
+node_modules
+*.log
+.env
+.DS_Store
+tmp/
+dist/
+build/
+coverage/
+nyc_output/
+.vscode/
+.idea/
+*.tgz
+.lancedb/
+.nyc_output/
+test-report.html

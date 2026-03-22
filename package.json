@@ -1,0 +1,35 @@
+{
+  "name": "claude-foundation",
+  "version": "0.1.0",
+  "description": "Minimal Claude Code foundation initializer for new projects.",
+  "type": "module",
+  "bin": {
+    "claude-foundation": "./bin/claude-foundation.js"
+  },
+  "files": [
+    "bin",
+    "src",
+    "assets",
+    "README.md"
+  ],
+  "keywords": [
+    "claude",
+    "claude-code",
+    "foundation",
+    "cli"
+  ],
+  "license": "MIT",
+  "scripts": {
+    "init:local": "node ./bin/claude-foundation.js init",
+    "init:hooks": "node ./bin/claude-foundation.js init --with-hooks",
+    "help": "node ./bin/claude-foundation.js --help"
+  },
+  "engines": {
+    "node": ">=18"
+  },
+  "dependencies": {
+    "@langchain/openai": "^0.6.16",
+    "@langchain/textsplitters": "^0.1.0",
+    "@lancedb/lancedb": "^0.18.1"
+  }
+}
